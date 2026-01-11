@@ -5,10 +5,10 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-http-go/http/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-http-go/http/v10/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-http-go/http/v10/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-http-go/http/v10/provider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -196,7 +196,7 @@ func NewHttpProvider(scope constructs.Construct, id *string, config *HttpProvide
 	j := jsiiProxy_HttpProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-http.provider.HttpProvider",
+		"@cdktn/provider-http.provider.HttpProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -209,7 +209,7 @@ func NewHttpProvider_Override(h HttpProvider, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-http.provider.HttpProvider",
+		"@cdktn/provider-http.provider.HttpProvider",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -233,7 +233,7 @@ func HttpProvider_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.provider.HttpProvider",
+		"@cdktn/provider-http.provider.HttpProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -268,7 +268,7 @@ func HttpProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.provider.HttpProvider",
+		"@cdktn/provider-http.provider.HttpProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -287,7 +287,7 @@ func HttpProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.provider.HttpProvider",
+		"@cdktn/provider-http.provider.HttpProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -306,7 +306,7 @@ func HttpProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.provider.HttpProvider",
+		"@cdktn/provider-http.provider.HttpProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -319,7 +319,7 @@ func HttpProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-http.provider.HttpProvider",
+		"@cdktn/provider-http.provider.HttpProvider",
 		"tfResourceType",
 		&returns,
 	)

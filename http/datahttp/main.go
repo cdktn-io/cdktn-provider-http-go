@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		reflect.TypeOf((*DataHttp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-http.dataHttp.DataHttpConfig",
+		"@cdktn/provider-http.dataHttp.DataHttpConfig",
 		reflect.TypeOf((*DataHttpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-http.dataHttp.DataHttpRetry",
+		"@cdktn/provider-http.dataHttp.DataHttpRetry",
 		reflect.TypeOf((*DataHttpRetry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference",
+		"@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference",
 		reflect.TypeOf((*DataHttpRetryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attempts", GoGetter: "Attempts"},

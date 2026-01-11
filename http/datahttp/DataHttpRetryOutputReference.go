@@ -5,9 +5,9 @@ package datahttp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-http-go/http/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-http-go/http/v10/jsii"
 
-	"github.com/cdktf/cdktf-provider-http-go/http/v10/datahttp/internal"
+	"github.com/cdktn-io/cdktn-provider-http-go/http/v10/datahttp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDataHttpRetryOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_DataHttpRetryOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference",
+		"@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDataHttpRetryOutputReference_Override(d DataHttpRetryOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference",
+		"@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

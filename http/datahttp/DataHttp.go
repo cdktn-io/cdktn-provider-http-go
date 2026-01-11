@@ -5,10 +5,10 @@ package datahttp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-http-go/http/v10/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-http-go/http/v10/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-http-go/http/v10/datahttp/internal"
+	"github.com/cdktn-io/cdktn-provider-http-go/http/v10/datahttp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -556,7 +556,7 @@ func NewDataHttp(scope constructs.Construct, id *string, config *DataHttpConfig)
 	j := jsiiProxy_DataHttp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -569,7 +569,7 @@ func NewDataHttp_Override(d DataHttp, scope constructs.Construct, id *string, co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -730,7 +730,7 @@ func DataHttp_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -765,7 +765,7 @@ func DataHttp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -784,7 +784,7 @@ func DataHttp_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func DataHttp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -816,7 +816,7 @@ func DataHttp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-http.dataHttp.DataHttp",
+		"@cdktn/provider-http.dataHttp.DataHttp",
 		"tfResourceType",
 		&returns,
 	)
