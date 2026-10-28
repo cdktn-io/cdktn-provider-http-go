@@ -5,14 +5,14 @@ package datahttp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-http-go/http/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-http-go/http/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-http-go/http/v13/datahttp/internal"
+	"github.com/cdktn-io/cdktn-provider-http-go/http/v14/datahttp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.6.2/docs/data-sources/http http}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.6.3/docs/data-sources/http http}.
 type DataHttp interface {
 	cdktn.TerraformDataSource
 	Body() *string
@@ -568,7 +568,7 @@ func (j *jsiiProxy_DataHttp) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/http/3.6.2/docs/data-sources/http http} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/http/3.6.3/docs/data-sources/http http} Data Source.
 func NewDataHttp(scope constructs.Construct, id *string, config *DataHttpConfig) DataHttp {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewDataHttp(scope constructs.Construct, id *string, config *DataHttpConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/http/3.6.2/docs/data-sources/http http} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/http/3.6.3/docs/data-sources/http http} Data Source.
 func NewDataHttp_Override(d DataHttp, scope constructs.Construct, id *string, config *DataHttpConfig) {
 	_init_.Initialize()
 
